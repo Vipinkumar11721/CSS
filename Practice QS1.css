@@ -1,11 +1,6 @@
-h2{
-    color: orange;
+#MyId{
+    color: blueviolet;
 }
-p{
-    color: white;
-    background-color: black;
-}
-button{
-    background-color: blue;
-    color: white;
+p a{
+    
 }

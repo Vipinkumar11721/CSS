@@ -1,22 +1,99 @@
-h1{
-    text-align: center;
-    border: solid;
-    width: 100%;
-    text-decoration: pink line-through;
-    font-family: fantasy;
+ /* Selector */
+ /* Universal Selector */
+* {
+   font-family: 'Courier New', Courier, monospace;
+   background-color: blue;
 }
-h2{
-    text-align: start;
-    font-weight: 200;
+/* Element Selector */
+h3 {
+    color: purple;
+}
+h1{
+    color: #b92b27;
+}
+/* ID Selector */
+#login{
+    background-color: #b92b27;
+}
+#signup{
+    background-color: aqua;
+}
+/* Class Selector */
+.upvote{
+    background-color: aqua;
+    color: red;
+}
+/* Desendent Selector */
+p a {
+    color: greenyellow;
+}
+.website a{
+    color: #b92b27;
+}
+/* Sibiling Selector */
+p + h3{
     text-decoration: underline;
 }
-p{
-    text-align: justify;
-    font-weight: bolder;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    font-size: medium;
+.upvote + button {
+     background-color: bisque;
+}
+/* Cjild Combinator */
+div > input{
+    background-color: violet;
+}
+/* Attribute Selector */
+input[type="text"] {
+    color:#b92b27;
+}
+input[type="password"] {
+    color: green;
+}
+/* Psedo classes */
+button:hover {
+    background-color: palevioletred;
+    color: blueviolet;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button:active{
+    background-color: lightgreen;
+    color: black;
+}
+input[type="radio"]:checked + label {
+    color: rgb(255, 0, 34);
+    font-weight: bold;
+}
+div:nth-of-type(2n){
+ background-color: rgb(215, 9, 252);
+}
+
+
+/* Psedo Elements */
+h1::first-letter{
+    color: green;
+}
+
+p::first-line{
+    color: gold;
+}
+p::selection{
+    background-color: lawngreen;
+}
+/* Cascading Property */
+h3{
+  background-color: yellow;
 }
 h3{
-    text-decoration:blue dashed;
+    background-color: green;
 }
+/* Selector Specificity 
+1.  id > class > element
+2.  more selectors > less selectors
+3.  if specificity same => cascading*/
+
+
+/* Inline Specificity */
+
