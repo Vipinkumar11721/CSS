@@ -1,6 +1,22 @@
-#MyId{
-    color: blueviolet;
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    color: aqua;
 }
-p a{
-    
+.inner{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
 }
