@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    border: solid;
+    width: 100%;
+    text-decoration: pink line-through;
+    font-family: fantasy;
+}
+h2{
+    text-align: start;
+    font-weight: 200;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    font-weight: bolder;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+h3{
+    text-decoration:blue dashed;
+}
