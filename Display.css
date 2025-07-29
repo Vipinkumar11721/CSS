@@ -1,0 +1,76 @@
+h2{
+    display: inline;
+}
+span{
+    display: block;
+}
+/* CSS hover */
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    margin: 0  auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+#box:hover{
+    margin-top: 400px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* CSS transform */
+section{
+    margin-top: 100px;
+
+}
+div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+#one{
+    transform: rotate(45deg);
+   
+}
+/* Scale Property */
+#two{
+     transform: scalex(1.5);
+}
+/* Translate Property */
+#three{
+    transform:  translatex(-100px);
+}
+/* Skew Property */
+#four{
+    transform: skew(45deg);
+}
+/* Rotate Property */
+#five{
+    transform: rotate(30deg) translatex(150px)
+} 
+
+/* Box Shadow */
+.box{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin-top: 100px auto;
+    box-shadow: 2px 2px 8px black;
+   
+
+}
