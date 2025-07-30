@@ -1,0 +1,55 @@
+.Animation{
+    height: 1000px;
+    width: 3000px;
+    background-color: aquamarine;
+
+    /* animation-name: fontAnimation;
+    animation-name: colorAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+   
+
+    animation: colorAnimation 1s ease-in 0s infinite normal;
+
+}
+@keyframes fontAnimation {
+    from {
+        font-size:20px;
+        background-color:aqua;
+    }
+    to{
+        font-size:40px;
+          background-color: blue;
+          border-radius: 15px;
+    }
+}
+/* @keyframes colorAnimation{
+    from{
+       background-color:aqua;
+    }
+    to{
+        background-color: blue;
+    }
+} */
+
+@keyframes colorAnimation{
+    0%{
+       background-color:aqua;
+       font-size:20px;
+    }
+    30%{
+        background-color: rgb(173, 225, 31);
+    }
+    50%{
+        background-color: blue;
+    }
+    80%{
+        background-color: green;
+    }
+    100%{
+        font-size:40px;
+        background-color:red;
+    }
